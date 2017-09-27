@@ -1,4 +1,8 @@
 <?php
-    $a= array("setu","mashud","jony");
-        echo $a[0];
+    $a= array(1,2,4,6,65);
+    $b= array (2,4,5,6,7,9);
+    
+    $c=$a+$b;
+    
+    print_r($c);
 ?>
